@@ -1,0 +1,17 @@
+Types of Node.js modules
+
+1. Built-in modules
+Modules provided by Node.js itself.
+Examples: fs, path, http, os, crypto.
+
+2. Third-party modules
+Packages created by developers and installed through npm.
+Examples: express, mongoose, dotenv, bcrypt.
+
+3. Custom modules
+Modules that you create yourself.
+Examples: user.js, product.js, database.js, auth.js.
+
+Node.js provides a global object called process.
+It gives information about and control over the currently running Node.js process.
+You don't need to import it.

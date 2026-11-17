@@ -13,3 +13,16 @@ fs.readFile("data.txt", "utf8", (error, data) => {
 });
 
 
+function getStudent(callback) {
+    const student = {
+        name: "Rahul",
+        age: 22
+    };
+
+    callback(student);
+}
+
+getStudent((data) => {
+    console.log(data);
+});
+

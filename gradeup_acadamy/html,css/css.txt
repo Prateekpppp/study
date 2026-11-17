@@ -1,0 +1,9 @@
+Category =>	    Properties
+Sizing =>	    width, height, min-width, max-width
+Spacing =>	    margin, padding, gap
+Layout =>	    display, position, overflow
+Alignment =>	    justify-content, align-items
+Typography =>	    font-size, font-weight, line-height
+Styling =>	    color, background, border, box-shadow
+Responsive =>	    @media, clamp(), %, rem
+Effects =>	    transition, transform, animation

@@ -1,0 +1,70 @@
+Docker is a platform that packages your application along with its dependencies and configuration into an isolated environment called a container.
+For example, instead of installing Python, FastAPI and all dependencies separately on your VPS, you can package them into a Docker image.
+That image can run on different machines that support Docker.
+Docker container carries your application and its runtime dependencies. It doesn't matter whether it runs on your laptop, testing server or production VPS.
+
+Before writing Docker commands, understand these five concepts:-
+1. Dockerfile: A text file containing instructions for building your application image.
+2. Docker Image: A packaged, read-only template containing application code, runtime and dependencies.
+3. Docker Container: A running instance of a Docker image.
+4. Docker Volume: Persistent storage for data that must survive container replacement.
+5. Docker Network: Allows containers to communicate with each other.
+
+Dockerfile creates an image.
+            |
+Image creates a container.
+            |
+Container runs your application.
+            |
+Volume stores persistent data.
+            |
+Network connects containers.
+
+
+Docker vs Virtual Machine: 
+Virtual Machine
+- Includes a guest operating system.
+- Uses a hypervisor.
+- Generally consumes more resources.
+
+Docker Container
+- Shares the host kernel.
+- Isolates processes.
+- Usually lightweight.
+
+Important: A Docker container is not a miniature independent virtual machine. It shares the host's kernel, although it has an isolated process environment.
+
+
+docker command to install on linux server:
+------------------------------------------
+
+# Download the official Docker installation script
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+# Execute the script with root privileges
+sudo sh get-docker.sh
+#Once the script finishes, ensure that the Docker daemon is running and configured to start automatically whenever your server reboots
+# Start and Enable the Docker Service
+sudo systemctl enable docker --now
+# To allow your current non-root user to run Docker commands, add them to the docker group
+sudo usermod -aG docker $USER
+
+
+Port mapping deeply
+    -p HOST_PORT:CONTAINER_PORT (ex. -p 8000:9000)
+    Browser requests localhost:9000.
+    Docker forwards traffic to container port 8000.
+
+
+Docker Networking
+docker network create app-network
+docker run -d \
+  --name postgres-db \
+  --network app-network \
+  -e POSTGRES_PASSWORD=secret \
+  postgres:17
+
+docker run -d \
+  --name fastapi-app \
+  --network app-network \
+  my-fastapi:v1
