@@ -1,0 +1,38 @@
+Complete 15-day schedule
+Day	Topics	Practical outcome
+1	Programming fundamentals, Java setup	First Java program
+2	Variables, data types, operators, input/output	Calculator
+3	Conditions and loops	Number-based programs
+4	Methods, arrays and strings	Logic-building exercises
+5	OOP: classes, objects, inheritance, polymorphism	Student class
+6	Collections, exceptions, file handling	Student record manager
+7	SQL and MySQL	Student database
+8	JDBC	Java-MySQL connection
+9	HTML, CSS and JavaScript	Registration form
+10	Spring Boot fundamentals and REST APIs	First REST API
+11	Spring Boot, JPA and MySQL	Backend CRUD
+12	DTOs, validation and exception handling	Improved REST API
+13	React fundamentals	Student dashboard
+14	React + Spring Boot integration	Connected frontend
+15	Final project, Git and revision	Full-stack application
+
+Detailed daily learning plan
+Phase 1: Programming and Java fundamentals
+- Day 1: Understand programming, algorithms, compiler, JDK, JVM and JRE. Install Java and IntelliJ IDEA.
+- Day 2: Variables, primitive data types, strings, operators and user input.
+- Day 3: if-else, switch, for, while and do-while loops.
+- Day 4: Methods, parameters, return values, arrays and strings.
+- Day 5: Classes, objects, constructors, encapsulation, inheritance and polymorphism.
+- Day 6: Collections, exception handling, static, final and basic file handling.
+Phase 2: Database and web fundamentals
+- Day 7: MySQL, tables, primary keys, foreign keys, CRUD, joins and SQL queries.
+- Day 8: JDBC, database connectivity, PreparedStatement and Java database operations.
+- Day 9: HTML, CSS, JavaScript, DOM manipulation and form validation.
+Phase 3: Backend development
+- Day 10: Spring Boot setup, controllers, REST APIs, HTTP methods and Postman.
+- Day 11: Spring Data JPA, entities, repositories, services and MySQL integration.
+- Day 12: DTOs, validation, exception handling, HTTP status codes and CORS.
+Phase 4: Frontend and final project
+- Day 13: React components, JSX, props, useState, events and conditional rendering.
+- Day 14: Fetch API, async/await and React-Spring Boot integration.
+- Day 15: Complete CRUD project, Git/GitHub and project explanation.

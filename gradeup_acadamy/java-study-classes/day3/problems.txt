@@ -1,0 +1,21 @@
+Exercise 1 – Number checker
+Write a program that takes a number and checks whether it is positive, negative or zero.
+
+Exercise 2 – Even or odd
+Take a number from the user and check whether it is even or odd.
+
+Exercise 3 – Grading system
+Take marks from the user and print grades using if-else-if.
+
+Exercise 4 – Multiplication table
+Take a number from the user and print its multiplication table up to 10.
+
+Exercise 5 – Sum of numbers
+Take a number n and calculate the sum from 1 to n.
+
+Exercise 6 – FizzBuzz
+Print numbers from 1 to 50:
+- Multiples of 3: print Fizz.
+- Multiples of 5: print Buzz.
+- Multiples of both: print FizzBuzz.
+- Otherwise, print the number.
